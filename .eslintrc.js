@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   // NOTE: cf. https://stackoverflow.com/questions/63118405/how-to-fix-eslintrc-the-file-does-not-match-your-project-config
-  ignorePatterns: [".eslintrc.js", "**/build/*", "*.js"],
+  ignorePatterns: [".eslintrc.js", "**/build/*", "*.js", "**/public/**", "*.json"],
   overrides: [
     {
       files: ["*.ts", "*.tsx"],
