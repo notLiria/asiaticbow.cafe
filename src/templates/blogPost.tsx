@@ -17,7 +17,8 @@ const BlogPost: React.FC<PageProps<Queries.Query>> = ({ data }) => {
 
   const ogImagePath =
     // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
-    thumbnail && thumbnail?.childImageSharp?.gatsbyImageData!.images!.fallback!.src
+    thumbnail &&
+    thumbnail?.childImageSharp?.gatsbyImageData!.images!.fallback!.src
 
   return (
     <Layout>
@@ -64,6 +65,15 @@ const InnerWrapper = styled.div`
   width: var(--post-width);
   margin: 0 auto;
   padding-bottom: var(--sizing-lg);
+  ul {
+    list-style-type: disc;
+    padding-left: var(--sizing-md); // You can adjust this value
+  }
+
+  ol {
+    list-style-type: decimal;
+    padding-left: var(--sizing-md); // You can adjust this value
+  }
 
   @media (max-width: ${({ theme }) => theme.device.sm}) {
     width: 87.5%;
@@ -75,7 +85,6 @@ const CommentWrap = styled.section`
   padding: 0 var(--padding-sm);
   margin: 0 auto;
   margin-bottom: var(--sizing-xl);
-
   @media (max-width: ${({ theme }) => theme.device.sm}) {
     width: auto;
   }
@@ -131,7 +140,7 @@ const Title = styled.h1`
 `
 
 export const query = graphql`
-  query BlogPostPage ($slug: String!) {
+  query BlogPostPage($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
