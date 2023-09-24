@@ -12,15 +12,15 @@ alt: "A rather unfortunate curve"
 
 This will be the first in a series of posts on bows and their measurable characteristics, in particular with respect to Asiatic bows. All graphs from my website, [asiaticbow.info](https://asiaticbow.info) - check it out for more details :) 
 
-In this post we’ll be covering draw force curves and stacking curves. This will consist of a theoretical explanation of each one, along with a practical application. Later on I will make an extra post going more in depth into the mathematical aspects of these curves.
+In this post we'll be covering draw force curves and stacking curves. This will consist of a theoretical explanation of each one, along with a practical application. Later on we will make an extra post going more in depth into the mathematical aspects of these curves.
 
 ## Definitions
 
-Let’s begin with some simple definitions. I’ll add them into the description to make referencing them easier. 
+Let’s begin with some simple definitions. We will add them into the description to make referencing them easier. 
 * Draw length: Distance that a bow is drawn, including the brace height, measured from the belly of the bow, in inches (see technical notes at the bottom of this post) ![Intersection of the two lines is our datum](./datum.png)
 
 * Poundage: Draw force, measured in pounds at a given draw length
-* Stacking (State of being): When a bow’s draw force curve increases by more than 5.5% per inch (Taken from [Ronald’s video](https://www.youtube.com/watch?v=koJNVnFqX6I). I’ve chosen this 5.5% to make discussion easier, and you may or may not experience stacking at this point)
+* Stacking (State of being): When a bow’s draw force curve increases by more than 5.5% per inch (Taken from [Ronald’s video](https://www.youtube.com/watch?v=koJNVnFqX6I). We’ve chosen this 5.5% to make discussion easier, and you may or may not experience stacking at this point)
 * Stack (verb): When a bow’s draw force curve changes by a large amount (Can be either increasing or decreasing by a large amount)
 
 ## Draw Force Curve: Theory 
@@ -42,7 +42,7 @@ Linear region is the region in which the bow is linear, and gives you a linear a
 
 Stacking region is where the draw force curve becomes exponential and you start to not really get much energy per inch.
 
-Note: The lines in this image are approximate. I haven't come up with the most precise way to calculate where these regions begin and end yet, but the  idea should be pretty clear here.
+Note: The lines in this image are approximate. We haven't come up with the most precise way to calculate where these regions begin and end yet, but the  idea should be pretty clear here.
 
 ## Draw Force Curve: Application 
 
