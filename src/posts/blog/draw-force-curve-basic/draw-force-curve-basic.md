@@ -14,6 +14,8 @@ This will be the first in a series of posts on bows and their measurable charact
 
 In this post we'll be covering draw force curves and stacking curves. This will consist of a theoretical explanation of each one, along with a practical application. Later on we will make an extra post going more in depth into the mathematical aspects of these curves.
 
+Video format available [here](https://www.youtube.com/watch?v=rwa8b3fE_1A)
+
 ## Definitions
 
 Let’s begin with some simple definitions. We will add them into the description to make referencing them easier. 
